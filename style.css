@@ -1,0 +1,271 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.brand{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+
+}
+.title1{
+    background-color: rgb(147, 99, 243);
+    color: rgb(255, 255, 255);
+    padding: 3% 15%;
+   
+}
+
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.container-fluid{
+    padding: 2% 10%;
+    padding-left: 0ch;
+}
+
+.nav-item{
+    padding: 0 25px;
+    font-size: 1.25rem;
+    font-family: monospace;
+    
+}
+.navbar-nav{
+    position: relative;
+    left: 55.70%;
+}
+
+.downloadbtn:hover{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    cursor: pointer;
+}
+.phone{
+    padding-top: 10%; 
+    width: 50%;
+    transform: rotate(20deg);  
+}
+
+
+ @media (max-width:1050px){
+    .phone{
+        transform: rotate(0deg);
+    }
+    .title{
+        text-align: center;
+        justify-content: center;
+        line-height: 1.25rem;
+    }
+ }
+
+.download-btn2{
+    background-color: white;
+    margin-left: 2%;
+}
+
+ /* features */
+ #features{
+    padding: 75px 150px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 35%; 
+    background-color:  rgb(255, 255, 255)  ;
+    z-index: 3;
+    position: relative;
+}
+
+ h3{
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 3rem;
+    padding-bottom: 0.6rem;
+ }
+.feat{
+    color: rgb(147, 99, 243);
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.p-feat{
+    width: 65%;
+    color: rgb(114, 114, 114);
+    font-weight: 100%;
+    font-size: 01.2rem;
+    line-height: 1.5rem;
+}
+.feat:hover{
+    color: rgb(240, 19, 19);
+}
+.feat-div{
+    padding-bottom: 25px;
+}
+
+ /* testimony  */
+
+ #testimonials{
+    background-color:  rgb(147, 99, 243);
+    padding: 40px 15% 50px;
+   
+ }
+ .h2-v1{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 75%;
+ }
+ .test-1{
+    border-radius: 50%;
+    padding-top: 20px;
+    width: 15%;
+ }
+ .loc{
+    color: white;
+    padding-left: 3.5%;
+
+ }
+
+
+ /* press */
+ #press{
+    background-color:  rgb(196, 170, 246);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+
+ }
+ .press-img{
+    width: 12%;
+    padding-right: 2.8%;
+ }
+ 
+ .tnw{
+    max-height: 35px;
+    width: auto;
+ }
+
+ .price-head{
+   align-items: center;
+   text-align: center;
+   padding: 85px 0 15px; 
+   font-size: 1.5rem;
+   color: rgb(87, 86, 85);
+ }
+
+
+ .price-head h2{
+    font-size: 3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-weight: lighter;
+    color: rgb(11, 11, 11);
+    padding-bottom: 15px;
+}
+
+#pricing{
+    padding: 2px 10%;
+    
+}
+  
+.p-pricing{
+    line-height: 0.85rem;
+}
+.v1{
+    visibility: hidden;
+}
+
+.card-body h3{
+    padding-bottom: 10px;
+    font-size: 1.85rem;
+    font-weight: 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-body{
+    border: 3px solid;
+    border-color:  rgb(147, 99, 243);
+    margin-bottom: 15px;
+    border-radius: 5%;
+    box-shadow: 22px rgb(147, 99, 243) ;
+}
+.card{
+    border: 0;
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.btn-block{
+    margin-top: 10px;
+    width: 80%;
+    box-shadow: 0 5px 6px  rgb(84, 124, 241);
+}
+
+.card-body  h2{
+    margin-bottom: 20px;
+    color: rgb(147, 99, 243) ;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+
+
+
+/* id */
+#cta{
+    background-color: rgb(147, 99, 243) ;
+
+}
+
+.cta1{
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.cta1 h3{
+    color: white;
+    width: 40%;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .download-btn2{
+    margin-left: 15px;
+
+}
+
+/* <!-- Footer --> */
+
+#footer{
+    background-color: white;
+    padding: 50px 35px;
+    padding-bottom: 10px;
+}
+.footer1{
+    justify-content: center;
+}
+
+.fontawsm{
+    padding-right: 39.5px;
+
+}
+
+div.footer1 p{
+    padding-top: 15px;
+    font-size: .995rem;
+}
+
+.fontawsm:hover{
+    color: rgb(147, 99, 243)
+}
+
+div.footer1 i{
+    max-width: 5px;
+    height: auto;
+}
